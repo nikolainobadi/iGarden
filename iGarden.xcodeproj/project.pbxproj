@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC13845D2CDAED19003F3FB4 /* MainTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13845C2CDAED19003F3FB4 /* MainTabView.swift */; };
+		AC13845F2CDAED27003F3FB4 /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13845E2CDAED27003F3FB4 /* JournalView.swift */; };
+		AC1384612CDAED30003F3FB4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1384602CDAED30003F3FB4 /* DashboardView.swift */; };
+		AC1384632CDAED3A003F3FB4 /* ReminderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1384622CDAED3A003F3FB4 /* ReminderSettingsView.swift */; };
+		AC1384652CDAED42003F3FB4 /* PlantIndeifcationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1384642CDAED42003F3FB4 /* PlantIndeifcationView.swift */; };
 		D4DCF7E82CDAE9FE003BE76F /* iGardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCF7E72CDAE9FE003BE76F /* iGardenApp.swift */; };
 		D4DCF7EA2CDAE9FE003BE76F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCF7E92CDAE9FE003BE76F /* ContentView.swift */; };
 		D4DCF7EC2CDAE9FF003BE76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4DCF7EB2CDAE9FF003BE76F /* Assets.xcassets */; };
@@ -14,6 +19,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC13845C2CDAED19003F3FB4 /* MainTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabView.swift; sourceTree = "<group>"; };
+		AC13845E2CDAED27003F3FB4 /* JournalView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		AC1384602CDAED30003F3FB4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
+		AC1384622CDAED3A003F3FB4 /* ReminderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettingsView.swift; sourceTree = "<group>"; };
+		AC1384642CDAED42003F3FB4 /* PlantIndeifcationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantIndeifcationView.swift; sourceTree = "<group>"; };
 		D4DCF7E42CDAE9FE003BE76F /* iGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DCF7E72CDAE9FE003BE76F /* iGardenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iGardenApp.swift; sourceTree = "<group>"; };
 		D4DCF7E92CDAE9FE003BE76F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +42,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC13845B2CDAED02003F3FB4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AC13845C2CDAED19003F3FB4 /* MainTabView.swift */,
+				AC13845E2CDAED27003F3FB4 /* JournalView.swift */,
+				AC1384602CDAED30003F3FB4 /* DashboardView.swift */,
+				AC1384622CDAED3A003F3FB4 /* ReminderSettingsView.swift */,
+				AC1384642CDAED42003F3FB4 /* PlantIndeifcationView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D4DCF7DB2CDAE9FE003BE76F = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +73,7 @@
 		D4DCF7E62CDAE9FE003BE76F /* iGarden */ = {
 			isa = PBXGroup;
 			children = (
+				AC13845B2CDAED02003F3FB4 /* Views */,
 				D4DCF7E72CDAE9FE003BE76F /* iGardenApp.swift */,
 				D4DCF7E92CDAE9FE003BE76F /* ContentView.swift */,
 				D4DCF7EB2CDAE9FF003BE76F /* Assets.xcassets */,
@@ -139,6 +162,11 @@
 			files = (
 				D4DCF7EA2CDAE9FE003BE76F /* ContentView.swift in Sources */,
 				D4DCF7E82CDAE9FE003BE76F /* iGardenApp.swift in Sources */,
+				AC1384612CDAED30003F3FB4 /* DashboardView.swift in Sources */,
+				AC1384652CDAED42003F3FB4 /* PlantIndeifcationView.swift in Sources */,
+				AC13845F2CDAED27003F3FB4 /* JournalView.swift in Sources */,
+				AC13845D2CDAED19003F3FB4 /* MainTabView.swift in Sources */,
+				AC1384632CDAED3A003F3FB4 /* ReminderSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
