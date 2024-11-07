@@ -12,6 +12,15 @@
 		AC1384612CDAED30003F3FB4 /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1384602CDAED30003F3FB4 /* DashboardView.swift */; };
 		AC1384632CDAED3A003F3FB4 /* ReminderSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1384622CDAED3A003F3FB4 /* ReminderSettingsView.swift */; };
 		AC1384652CDAED42003F3FB4 /* PlantIndeifcationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1384642CDAED42003F3FB4 /* PlantIndeifcationView.swift */; };
+		AC1384682CDAF455003F3FB4 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1384672CDAF455003F3FB4 /* Plant.swift */; };
+		AC13846A2CDAF541003F3FB4 /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1384692CDAF541003F3FB4 /* PlantDetailView.swift */; };
+		AC13846F2CDB2208003F3FB4 /* OverviewSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13846E2CDB2208003F3FB4 /* OverviewSection.swift */; };
+		AC1384712CDB2438003F3FB4 /* PlantCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1384702CDB2438003F3FB4 /* PlantCardView.swift */; };
+		AC1384742CDB2712003F3FB4 /* ResourceSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1384732CDB2712003F3FB4 /* ResourceSheet.swift */; };
+		AC1384762CDB2724003F3FB4 /* ResourceLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1384752CDB2724003F3FB4 /* ResourceLink.swift */; };
+		AC1384792CDBBFC7003F3FB4 /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1384782CDBBFC7003F3FB4 /* Reminder.swift */; };
+		AC13847B2CDBD2D6003F3FB4 /* ReminderListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC13847A2CDBD2D6003F3FB4 /* ReminderListView.swift */; };
+		AC1385122CDC0459003F3FB4 /* DashboardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC1385112CDC0459003F3FB4 /* DashboardViewModel.swift */; };
 		D4DCF7E82CDAE9FE003BE76F /* iGardenApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCF7E72CDAE9FE003BE76F /* iGardenApp.swift */; };
 		D4DCF7EA2CDAE9FE003BE76F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4DCF7E92CDAE9FE003BE76F /* ContentView.swift */; };
 		D4DCF7EC2CDAE9FF003BE76F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4DCF7EB2CDAE9FF003BE76F /* Assets.xcassets */; };
@@ -24,6 +33,15 @@
 		AC1384602CDAED30003F3FB4 /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		AC1384622CDAED3A003F3FB4 /* ReminderSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderSettingsView.swift; sourceTree = "<group>"; };
 		AC1384642CDAED42003F3FB4 /* PlantIndeifcationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantIndeifcationView.swift; sourceTree = "<group>"; };
+		AC1384672CDAF455003F3FB4 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		AC1384692CDAF541003F3FB4 /* PlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailView.swift; sourceTree = "<group>"; };
+		AC13846E2CDB2208003F3FB4 /* OverviewSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewSection.swift; sourceTree = "<group>"; };
+		AC1384702CDB2438003F3FB4 /* PlantCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantCardView.swift; sourceTree = "<group>"; };
+		AC1384732CDB2712003F3FB4 /* ResourceSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceSheet.swift; sourceTree = "<group>"; };
+		AC1384752CDB2724003F3FB4 /* ResourceLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResourceLink.swift; sourceTree = "<group>"; };
+		AC1384782CDBBFC7003F3FB4 /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
+		AC13847A2CDBD2D6003F3FB4 /* ReminderListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReminderListView.swift; sourceTree = "<group>"; };
+		AC1385112CDC0459003F3FB4 /* DashboardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardViewModel.swift; sourceTree = "<group>"; };
 		D4DCF7E42CDAE9FE003BE76F /* iGarden.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iGarden.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4DCF7E72CDAE9FE003BE76F /* iGardenApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iGardenApp.swift; sourceTree = "<group>"; };
 		D4DCF7E92CDAE9FE003BE76F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,13 +63,45 @@
 		AC13845B2CDAED02003F3FB4 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				AC13846D2CDAF5DD003F3FB4 /* HomeViews */,
 				AC13845C2CDAED19003F3FB4 /* MainTabView.swift */,
 				AC13845E2CDAED27003F3FB4 /* JournalView.swift */,
-				AC1384602CDAED30003F3FB4 /* DashboardView.swift */,
 				AC1384622CDAED3A003F3FB4 /* ReminderSettingsView.swift */,
 				AC1384642CDAED42003F3FB4 /* PlantIndeifcationView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		AC1384662CDAF447003F3FB4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC1384672CDAF455003F3FB4 /* Plant.swift */,
+				AC1384782CDBBFC7003F3FB4 /* Reminder.swift */,
+				AC1385112CDC0459003F3FB4 /* DashboardViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AC13846D2CDAF5DD003F3FB4 /* HomeViews */ = {
+			isa = PBXGroup;
+			children = (
+				AC1384722CDB2704003F3FB4 /* ResourceViews */,
+				AC1384602CDAED30003F3FB4 /* DashboardView.swift */,
+				AC1384692CDAF541003F3FB4 /* PlantDetailView.swift */,
+				AC13846E2CDB2208003F3FB4 /* OverviewSection.swift */,
+				AC1384702CDB2438003F3FB4 /* PlantCardView.swift */,
+				AC13847A2CDBD2D6003F3FB4 /* ReminderListView.swift */,
+			);
+			path = HomeViews;
+			sourceTree = "<group>";
+		};
+		AC1384722CDB2704003F3FB4 /* ResourceViews */ = {
+			isa = PBXGroup;
+			children = (
+				AC1384732CDB2712003F3FB4 /* ResourceSheet.swift */,
+				AC1384752CDB2724003F3FB4 /* ResourceLink.swift */,
+			);
+			path = ResourceViews;
 			sourceTree = "<group>";
 		};
 		D4DCF7DB2CDAE9FE003BE76F = {
@@ -73,6 +123,7 @@
 		D4DCF7E62CDAE9FE003BE76F /* iGarden */ = {
 			isa = PBXGroup;
 			children = (
+				AC1384662CDAF447003F3FB4 /* Models */,
 				AC13845B2CDAED02003F3FB4 /* Views */,
 				D4DCF7E72CDAE9FE003BE76F /* iGardenApp.swift */,
 				D4DCF7E92CDAE9FE003BE76F /* ContentView.swift */,
@@ -161,11 +212,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4DCF7EA2CDAE9FE003BE76F /* ContentView.swift in Sources */,
+				AC1384792CDBBFC7003F3FB4 /* Reminder.swift in Sources */,
 				D4DCF7E82CDAE9FE003BE76F /* iGardenApp.swift in Sources */,
 				AC1384612CDAED30003F3FB4 /* DashboardView.swift in Sources */,
 				AC1384652CDAED42003F3FB4 /* PlantIndeifcationView.swift in Sources */,
+				AC13846A2CDAF541003F3FB4 /* PlantDetailView.swift in Sources */,
 				AC13845F2CDAED27003F3FB4 /* JournalView.swift in Sources */,
+				AC1385122CDC0459003F3FB4 /* DashboardViewModel.swift in Sources */,
+				AC13846F2CDB2208003F3FB4 /* OverviewSection.swift in Sources */,
+				AC1384742CDB2712003F3FB4 /* ResourceSheet.swift in Sources */,
+				AC1384762CDB2724003F3FB4 /* ResourceLink.swift in Sources */,
+				AC1384682CDAF455003F3FB4 /* Plant.swift in Sources */,
 				AC13845D2CDAED19003F3FB4 /* MainTabView.swift in Sources */,
+				AC13847B2CDBD2D6003F3FB4 /* ReminderListView.swift in Sources */,
+				AC1384712CDB2438003F3FB4 /* PlantCardView.swift in Sources */,
 				AC1384632CDAED3A003F3FB4 /* ReminderSettingsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
